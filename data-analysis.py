@@ -8,8 +8,8 @@ wdi_limited = wdi.loc[:,['Mortality rate, infant (per 1,000 live births)', 'GDP 
 print(wdi_limited.head())
 
 plt.scatter('Mortality rate, infant (per 1,000 live births)', 'GDP per capita (constant 2010 US$)', data=wdi_limited)
-#plt.xlabel('entry a')
-#plt.ylabel('entry b')
+plt.xlabel('Mortality rate, infant (per 1,000 live births)')
+plt.ylabel('GDP per capita (constant 2010 US$)')
 plt.show()
 
 
